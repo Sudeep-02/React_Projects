@@ -115,3 +115,5 @@ export class Service {
     return this.bucket.getFilePreview(config.appwriteBucketId, fileId);
   }
 }
+const service = new Service();
+export default service;
